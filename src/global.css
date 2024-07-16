@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: 258 73% 62%;
+    --color-secondary: 258 13% 25%;
+    --color-highlight: 257 72% 89%;
+
+    --text-primary: 0 0% 100%;
+
+    --background-primary: 255 31% 5%;
+    --background-secondary: 256 33% 9%;
+    --background-tertiary: 256 33% 13%;
+
+    /* --- shadcn --- */
+    --background: var(--background-primary);
+    --foreground: var(--text-primary);
+
+    --card: var(--background-secondary);
+    --card-foreground: var(--text-primary);
+
+    --popover: var(--background-secondary);
+    --popover-foreground: var(--text-primary);
+
+    --primary: var(--color-primary);
+    --primary-foreground: var(--text-primary);
+
+    --secondary: var(--color-secondary);
+    --secondary-foreground: var(--text-primary);
+
+    --muted: var(--background-primary);
+    --muted-foreground: var(--text-primary);
+
+    --accent: var(--background-secondary);
+    --accent-foreground: var(--text-primary);
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: var(--color-highlight);
+    --input: var(--background-primary);
+    --ring: var(--color-highlight);
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
