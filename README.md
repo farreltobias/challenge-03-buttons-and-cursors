@@ -41,6 +41,8 @@ The website was developed using [React.js](https://react.dev/), [TypeScript](htt
 
 You can check it out using this link: https://buttons-and-cursors.farrel.tech/.
 
+You can also check the Storybook documentation using this link: https://6693f1abb3f263ddf092965c-luofxuwjmi.chromatic.com.
+
 ## :muscle: New Features
 
 Added Storybook to the project to create a better documentation and to see the components in isolation.
@@ -67,6 +69,11 @@ $ pnpm i
 
 # Run website with vite
 $ pnpm dev
+
+# OR
+
+# Run Storybook
+$ pnpm storybook
 ```
 
 ## :memo: License
